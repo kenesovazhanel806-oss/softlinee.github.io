@@ -1,0 +1,231 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мебель на заказ</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f7f7f7;
+color:#333;
+}
+
+header{
+background:#4b2e1e;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:28px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+height:500px;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#c48b45;
+padding:15px 35px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-size:18px;
+}
+
+section{
+padding:70px 10%;
+}
+
+h3{
+font-size:34px;
+margin-bottom:30px;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h4{
+padding:15px;
+font-size:22px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.contact{
+background:#4b2e1e;
+color:white;
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+footer{
+background:#2d1a10;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Luxury Furniture</h1>
+
+<nav>
+<a href="#about">О нас</a>
+<a href="#catalog">Каталог</a>
+<a href="#contact">Контакты</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h2>Мебель на заказ</h2>
+<p>Кухни, шкафы, гардеробные, спальни и мебель для вашего дома.</p>
+<a href="#contact" class="btn">Оставить заявку</a>
+</div>
+</section>
+
+<section id="about">
+<h3>Почему выбирают нас</h3>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80">
+<h4>Индивидуальный дизайн</h4>
+<p>Создаем мебель по вашим размерам и пожеланиям.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80">
+<h4>Качественные материалы</h4>
+<p>Используем только надежную фурнитуру и долговечные материалы.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80">
+<h4>Гарантия качества</h4>
+<p>Гарантия на все изделия и профессиональная установка.</p>
+</div>
+
+</div>
+</section>
+
+<section id="catalog">
+
+<h3>Наши работы</h3>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80">
+<h4>Кухни</h4>
+<p>Современные кухни любого размера.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80">
+<h4>Шкафы-купе</h4>
+<p>Встроенные шкафы по индивидуальным размерам.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80">
+<h4>Спальни</h4>
+<p>Кровати, тумбы и гарнитуры.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h3>Контакты</h3>
+
+<p>📞 +7 (700) 123-45-67</p>
+
+<p>📍 Казахстан</p>
+
+<p>✉ info@mebel.kz</p>
+
+<p>Изготовление мебели на заказ по индивидуальным проектам.</p>
+
+</section>
+
+<footer>
+
+© 2026 Luxury Furniture. Все права защищены.
+
+</footer>
+
+</body>
+</html>
+```
